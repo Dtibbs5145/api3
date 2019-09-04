@@ -45,4 +45,4 @@ three types:
 can be used:
 
 - globally with server.use()
-- 
+- locally at a reqest handler
