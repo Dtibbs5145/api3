@@ -4,9 +4,8 @@ router.get('/', (req, res) => {
     res.send('/suppliers/');
 });
 
-router.get('/name', (req, res) => {
-    const name = Luis
-    res.send(`${name}`);
+router.get('/:name', (req, res) => {
+    res.send(`/suppliers/${req.params.name}`);
 });
 
 module.exports = router;

@@ -8,7 +8,7 @@ const suppliersRouter = require('./suppliers/suppliers-router');
 server.use(express.json());
 
 server.use('/products', productsRouter);
-// server.use('/suppliers', suppliersRouter);
+server.use('/suppliers', suppliersRouter);
 
 //route handlers
 
